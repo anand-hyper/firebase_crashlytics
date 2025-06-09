@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "373556346995",
+    "project_id": "crashlyticsdemo-333e9",
+    "storage_bucket": "crashlyticsdemo-333e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373556346995:android:e7ba98d43ad90564faea06",
+        "android_client_info": {
+          "package_name": "com.example.firebase_crashlytics"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsLmfE4OWiOwjr19q-GpuwZWFMWJl2D44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373556346995:android:42a9c57090885ddefaea06",
+        "android_client_info": {
+          "package_name": "com.example.orca_nova_crash"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsLmfE4OWiOwjr19q-GpuwZWFMWJl2D44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:373556346995:android:24522192c278c153faea06",
+        "android_client_info": {
+          "package_name": "com.example.orca_nova_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsLmfE4OWiOwjr19q-GpuwZWFMWJl2D44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
