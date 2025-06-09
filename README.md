@@ -1,17 +1,25 @@
-# firebase_crashlytics
+# Flutter Firebase Crashlytics Integration Guide
 
-A new Flutter project.
+## 🔥 Complete Setup Guide
 
-## Getting Started
+### 1. Firebase Project Configuration
+**A. Create/Configure Firebase Project:**
+1. Go to [Firebase Console](https://console.firebase.google.com)
+2. Click "Add Project" → Enter project name → Enable Google Analytics
+3. After creation, go to Project Settings → General → Add Firebase to your Flutter app
 
+**B. For Android:**
+1. Download `google-services.json`
+2. Place in `android/app/` directory
 
-This project is a starting point for a Flutter application.
+**C. For iOS:**
+1. Download `GoogleService-Info.plist`
+2. Place in `ios/Runner` via Xcode
 
-A few resources to get you started if this is your first Flutter project:
+### 2. Flutter Project Setup
+```bash
+# Add required packages
+flutter pub add firebase_core firebase_crashlytics firebase_analytics
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Configure Firebase
+flutterfire configure
